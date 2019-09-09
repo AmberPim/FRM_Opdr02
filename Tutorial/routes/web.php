@@ -14,17 +14,10 @@
 
 
 /* First is name, second is view */
-Route::view('/','welcome');
+Route::view('/','home');
 Route::view('contact','contact');
 Route::view('about','about');
 
-Route::get('customers', function(){
+Route::get('customers', 'CustomersController@list');
+Route::post('customers', 'CustomersController@store');
 
-    $customers = [
-        'Harry Potter',
-        'Ron Weasley',
-        'Hermoine Granger'
-    ];
-
-    return view('Internal.customers',['customers' => $customers]);
-});

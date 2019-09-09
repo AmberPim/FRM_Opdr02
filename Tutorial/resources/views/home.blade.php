@@ -1,9 +1,9 @@
 @extends('layout')
 
 @section('title')
-   About Us
+    Home
 @endsection
 
 @section('content')
-    <p> We sell stuff </p>
-    @endsection
+    <p> Look at all these chickens </p>
+@endsection
