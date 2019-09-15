@@ -1,8 +1,7 @@
 @extends('layout')
 
-@section('title')
-   About Us
-@endsection
+@section('title', 'about')
+
 
 @section('content')
     <p> We sell stuff </p>
