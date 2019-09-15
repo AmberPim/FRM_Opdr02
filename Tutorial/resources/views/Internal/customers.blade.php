@@ -11,7 +11,7 @@
             <h1> Active Customers </h1>
                 <ul>
                      @foreach($activeCustomers as $activeCustomer)
-                    <li> {{$activeCustomer->name}} @ {{$activeCustomer->email}} </li>
+                    <li> {{$activeCustomer->name}} @ {{$activeCustomer->email}} is with {{$activeCustomer->company->name}} </li>
                      @endforeach
                 </ul>
         </div>
@@ -21,9 +21,26 @@
             <h1> InActive Customers </h1>
             <ul>
                 @foreach($inactiveCustomers as $inactiveCustomer)
-                    <li> {{$inactiveCustomer->name}} @ {{$inactiveCustomer->email}} </li>
+                    <li> {{$inactiveCustomer->name}} @ {{$inactiveCustomer->email}} is with {{$inactiveCustomer->company->name}} </li>
                 @endforeach
             </ul>
+        </div>
+        <div class="col-md-2"></div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-2"> </div>
+        <div class="col-md-8">
+
+
+          @foreach($companies as $company)
+            <h3> {{$company->name}}</h3>
+
+              @foreach($company->customers as $customer)
+                  <li> {{$customer->name}}</li>
+                  @endforeach
+
+            @endforeach
         </div>
         <div class="col-md-2"></div>
     </div>
@@ -56,6 +73,17 @@
             <option value="0">Inactive</option>
         </select>
     </div>
+
+    <div class="form-group">
+        <label for="company_id">Status</label>
+        <select name="company_id" id = "company_id" class="form-control">
+@foreach ($companies as $company)
+                <option value="{{$company->id}}"> {{$company->name}} </option>
+    @endforeach
+
+        </select>
+    </div>
+
 
 
     <button type="submit" class="btn btn-primary">Add Customer</button>
