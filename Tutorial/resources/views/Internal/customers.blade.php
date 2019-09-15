@@ -9,7 +9,7 @@
 
 <ul>
     @foreach($customers as $customer)
-        <li> {{$customer->name}} </li>
+        <li> {{$customer->name}} @ {{$customer->email}} </li>
         @endforeach
 </ul>
 
@@ -18,13 +18,19 @@
 
 
 <form action="/customers" method="POST">
-    Customer Name:<br>
-    <input type="text" name="customer_name" placeholder="Basilisk">
+    <p>Customer Name:</p>
+    <input type="text" name="customer_name" placeholder="Basilisk" value="{{old('customer_name')}}">
+    <div>{{ $errors->first('customer_name') }} </div>
     <br>
-    <br><br>
+    <p>Email:</p>
+    <input type="text" name="customer_email" placeholder="Basilisk@chamberOfSecrets.com" value="{{old('customer_email')}}">
+    <div>{{ $errors->first('customer_email') }} </div>
+    <br>
     <input type="submit" value="Submit">
 
     @csrf
+
+
 </form>
 
 
