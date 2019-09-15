@@ -37,9 +37,9 @@
 
 <form action="/customers" method="POST" class="pb-5">
     <div class="form-group">
-    <label for="customer_name">Name</label>
-    <input type="text" name="customer_name" placeholder="Basilisk" value="{{old('customer_name')}}" class="form-control">
-    <div>{{ $errors->first('customer_name') }} </div>
+    <label for="name">Name</label>
+    <input type="text" name="name" placeholder="Basilisk" value="{{old('name')}}" class="form-control">
+    <div>{{ $errors->first('name') }} </div>
     </div>
 
     <div class="form-group">
