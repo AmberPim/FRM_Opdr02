@@ -16,7 +16,7 @@
 
 @if(!session()->has('message'))
 
-            <form action="/contact" method="POST" class="pb-5">
+            <form action="{{route('contact.store')}}" method="POST" class="pb-5">
                 <div class="form-group">
                     <label for="name">Name</label>
                     <input type="text" name="name" placeholder="Basilisk" value="{{old('name')}}" class="form-control">

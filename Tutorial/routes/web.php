@@ -21,8 +21,8 @@ Route::view('about','about')->middleware('test');
 Route::get('customers', 'CustomersController@list')->middleware('auth');
 Route::post('customers', 'CustomersController@store')->middleware('auth');
 
-Route::get('contact', 'ContactFormController@create');
-Route::post('contact', 'ContactFormController@store');
+Route::get('contact', 'ContactFormController@create')->name('contact.create');
+Route::post('contact', 'ContactFormController@store')->name('contact.store');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
