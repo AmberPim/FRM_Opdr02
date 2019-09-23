@@ -14,8 +14,18 @@
       <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tutorial/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="15" column="35" lean-forward="false" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+            <state relative-caret-position="261">
+              <caret line="27" column="58" lean-forward="true" selection-start-line="27" selection-start-column="58" selection-end-line="27" selection-end-column="58" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CustomersController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Tutorial/app/Http/Controllers/CustomersController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -51,11 +61,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nav.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="nav.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tutorial/resources/views/nav.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+            <state relative-caret-position="306">
+              <caret line="30" column="17" lean-forward="true" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -98,10 +108,8 @@
         <option value="$PROJECT_DIR$/Tutorial/app/Company.php" />
         <option value="$PROJECT_DIR$/Tutorial/database/migrations/2019_09_09_114458_create_customers_table.php" />
         <option value="$PROJECT_DIR$/Tutorial/app/Customer.php" />
-        <option value="$PROJECT_DIR$/Tutorial/app/Http/Controllers/CustomersController.php" />
         <option value="$PROJECT_DIR$/Tutorial/resources/views/Internal/customers.blade.php" />
         <option value="$PROJECT_DIR$/Tutorial/resources/views/contact.blade.php" />
-        <option value="$PROJECT_DIR$/Tutorial/routes/web.php" />
         <option value="$PROJECT_DIR$/Tutorial/.env" />
         <option value="$PROJECT_DIR$/Tutorial/app/Mail/ContactFormMail.php" />
         <option value="$PROJECT_DIR$/Tutorial/resources/views/emails/contact/contact-form.blade.php" />
@@ -110,6 +118,8 @@
         <option value="$PROJECT_DIR$/Tutorial/resources/views/contact/create.blade.php" />
         <option value="$PROJECT_DIR$/Tutorial/resources/views/layouts/app.blade.php" />
         <option value="$PROJECT_DIR$/Tutorial/resources/views/nav.blade.php" />
+        <option value="$PROJECT_DIR$/Tutorial/routes/web.php" />
+        <option value="$PROJECT_DIR$/Tutorial/app/Http/Controllers/CustomersController.php" />
       </list>
     </option>
   </component>
@@ -121,8 +131,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="637" />
-    <option name="y" value="39" />
+    <option name="x" value="591" />
+    <option name="y" value="88" />
     <option name="width" value="920" />
     <option name="height" value="792" />
   </component>
@@ -166,6 +176,22 @@
               <item name="Tutorial" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="FRM_Opdr02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FRM_Opdr02" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Tutorial" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="FRM_Opdr02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FRM_Opdr02" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Tutorial" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Middleware" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="FRM_Opdr02" type="b2602c69:ProjectViewProjectNode" />
@@ -251,15 +277,15 @@
       <workItem from="1568030493770" duration="12306000" />
       <workItem from="1568625763806" duration="1188000" />
       <workItem from="1569236450574" duration="2156000" />
-      <workItem from="1569239510287" duration="2148000" />
+      <workItem from="1569239510287" duration="2963000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23313000" />
+    <option name="totallyTimeSpent" value="24128000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="637" y="39" width="920" height="792" extended-state="0" />
+    <frame x="591" y="88" width="920" height="792" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28429204" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -562,22 +588,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tutorial/app/Http/Controllers/CustomersController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" column="38" lean-forward="false" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tutorial/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="15" column="35" lean-forward="false" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Tutorial/.env">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -654,8 +664,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Tutorial/resources/views/nav.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+        <state relative-caret-position="306">
+          <caret line="30" column="17" lean-forward="true" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tutorial/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="27" column="58" lean-forward="true" selection-start-line="27" selection-start-column="58" selection-end-line="27" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tutorial/app/Http/Controllers/CustomersController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
         </state>
       </provider>

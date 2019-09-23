@@ -18,8 +18,8 @@ Route::view('/','home');
 Route::view('contact','contact');
 Route::view('about','about');
 
-Route::get('customers', 'CustomersController@list');
-Route::post('customers', 'CustomersController@store');
+Route::get('customers', 'CustomersController@list')->middleware('auth');
+Route::post('customers', 'CustomersController@store')->middleware('auth');
 
 Route::get('contact', 'ContactFormController@create');
 Route::post('contact', 'ContactFormController@store');
