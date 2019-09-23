@@ -14,7 +14,7 @@
                 Contact Us
             </h1>
 
-
+@if(!session()->has('message'))
 
             <form action="/contact" method="POST" class="pb-5">
                 <div class="form-group">
@@ -40,4 +40,6 @@
             </form>
         </div>
     </div>
+
+    @endif
     @endsection

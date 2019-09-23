@@ -23,3 +23,6 @@ Route::post('customers', 'CustomersController@store');
 
 Route::get('contact', 'ContactFormController@create');
 Route::post('contact', 'ContactFormController@store');
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
