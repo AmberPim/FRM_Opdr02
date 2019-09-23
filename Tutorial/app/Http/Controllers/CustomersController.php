@@ -9,7 +9,7 @@ class CustomersController extends Controller
 {
     public function __construct()
     {
-        $this->middelware('auth');
+
     }
 
     public function store()

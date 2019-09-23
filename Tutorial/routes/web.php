@@ -16,7 +16,7 @@
 /* First is name, second is view */
 Route::view('/','home');
 Route::view('contact','contact');
-Route::view('about','about');
+Route::view('about','about')->middleware('test');
 
 Route::get('customers', 'CustomersController@list')->middleware('auth');
 Route::post('customers', 'CustomersController@store')->middleware('auth');
